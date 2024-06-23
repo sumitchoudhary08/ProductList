@@ -1,0 +1,20 @@
+.ddContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.productContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: calc(100vh - 120px);
+    flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+    .productContainer {
+      margin-bottom: 20px;
+    }
+}

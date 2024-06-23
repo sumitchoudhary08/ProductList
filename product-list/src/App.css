@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+body {
+  padding-top: 80px; /* Adjust based on the navbar height to avoid content overlap */
+}
